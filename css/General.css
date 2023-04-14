@@ -1,0 +1,118 @@
+:root {
+    --head-bg-color: #e8e4e4;
+    --footer-bg-color: #403c3c;
+    --color-green: #90c44c;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font: 0.75em 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+a.nav-link {
+    padding: 15px 15px;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+a.nav-link, li.nav-item {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.page-content {
+    position: relative;
+    min-height: 100vh;
+}
+
+.content-wrap {
+    padding-bottom: 100px;
+}
+
+.bg-head {
+    background-color: var(--head-bg-color);
+}
+
+.bg-footer {
+    background-color: var(--footer-bg-color);
+}
+
+.btn-green {
+    background-color: var(--color-green);
+}
+
+.btn-home {
+    padding: 15px 55px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+
+.input-wrapper {
+    position: relative;
+    width: 250px; 
+}
+
+.input-icon {
+    color: #191919;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.login-form-content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 450px;
+    background-color: var(--head-bg-color);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;    
+    padding: 50px;
+    text-align: center;
+}
+
+.login-form-content div.row div {
+    padding-top: 5px; 
+    padding-bottom: 5px;
+}
+
+.login-form-content div.row div input[type=text],
+.login-form-content div.row div input[type=password] {
+    text-align: center;
+}
+
+.btn-sub {
+    font-weight: bold;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: white;
+    border-radius: 10px;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    color: white;
+}
+
+i.footer-icon { 
+    font-size: 2em;
+    margin-left: 10px;
+    cursor: pointer;
+}
