@@ -501,4 +501,55 @@ a:focus {
   color: #191818;
 }
 
+.bg-color{
+  background-color: #efeded;
+  padding: 5px;
+}
+.item{
+  background-color: #efeded;
+  padding: 5px;
+}
+.itemStruct{
+  display:flex;
+  justify-content: left;
+  align-items:center;
+  }
+  
+  .text{
+  padding: 20px;
+  }
+  .map-responsive{
+
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
+
+}
+.bg-color-line{
+  background-color: #efeded;
+  padding: 30px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.nav-line{
+  background-color: #90c44c;
+  padding: 15px;
+}
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 21px;
+  font-size: 17px;
+}
+
 /* end footer section*/
